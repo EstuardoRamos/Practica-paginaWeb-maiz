@@ -52,10 +52,9 @@
                         platos tradicionales.
 
                     </p>
-                    <a href="#" class="btn__text-cover btn__text">Empezar</a>
                 </section>
                 <section class="image__cover">
-                    <img src="assets/images/Logo/pngwing.com.png" alt="">
+                    <img src="assets/images/Maiz/historia_del_maiz.jpg" alt="">
                 </section>
             </div>
         </div>

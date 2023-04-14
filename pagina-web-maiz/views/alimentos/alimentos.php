@@ -52,6 +52,7 @@
         </section>
       </div>
       <div class="principales_aliments">
+        <h2>Algunas de las comidas mas conocidas</h2>
         <div class="variety-info">
           <div class="variety-description">
             <h3>Atol</h3>
@@ -140,11 +141,6 @@
                         </td>
                         <td style='border: 1px solid #ddd; padding: 8px;'>
                             <?php echo $receta->instrucciones; ?>
-                        </td>
-                        <td style='border: 1px solid #ddd; padding: 8px;'><a
-                                href="<?php echo constant('URL') . 'consulta/verAlumno/' . $alumno->matricula; ?>">Actualizar</a>
-                        </td>
-                        <td style='border: 1px solid #ddd; padding: 8px;'><button class="bEliminar" data-matricula="<?php echo $alumno->matricula; ?>">Eliminar</button>
                         </td>
                     </tr>
                 <?php } ?>
