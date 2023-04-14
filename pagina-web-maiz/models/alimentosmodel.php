@@ -30,7 +30,7 @@ class AlimentosModel extends Model{
 
     public function insert($datos){
         // insert   ar
-        echo 'entrando a insertar';
+        //echo 'entrando a insertar';
         $query = $this->db->connect()->prepare('INSERT INTO recetas(autor_receta, nombre_receta, ingredientes, instrucciones)  VALUES(:autor_receta, :nombre_receta, :ingredientes, :instrucciones)');
         try{
             $query->execute([

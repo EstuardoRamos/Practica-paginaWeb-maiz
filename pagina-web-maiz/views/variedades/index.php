@@ -8,7 +8,7 @@
   <title>Variedades
   </title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="<?php echo constant('URL'); ?>assets/css/style.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <div class="container__cover div__offset">
       <div class="cover">
         <section class="text__cover">
-          <h1>Variedades deL maiz 1</h1>
+          <h1>Variedades deL maiz </h1>
           <p>El maíz es una planta extremadamente versátil que tiene cientos de variedades diferentes. Las
             variedades de maíz se pueden clasificar en función de su tamaño, forma, color y sabor. Aunque
             hay
@@ -34,13 +34,13 @@
             
             <div class="variety-info">
               <div class="variety-description">
-                <h3>Maíz amarillo1</h3>
+                <h3>Maíz amarillo</h3>
                 <p>El maíz amarillo es una de las variedades más comunes en Guatemala. Es utilizado para la elaboración
                   de tortillas, tamales, atoles y otros platillos típicos de la gastronomía guatemalteca.</p>
               </div>
               <section>
                 <div class="variety-image">
-                  <img src="assets/images/Maiz/maiz-amarillo.png" alt="Maíz amarillo">
+                  <img src="<?php echo constant('URL'); ?>assets/images/Maiz/maiz-amarillo.png" alt="Maíz amarillo">
                 </div>
               </section>
               
@@ -60,7 +60,7 @@
                   gastronomía mexicana que también es muy consumido en Guatemala.</p>
               </div>
               <div class="variety-image">
-                <img src="assets/images/Maiz/maiz-blanco.png" alt="Maíz blanco">
+                <img src="<?php echo constant('URL'); ?>assets/images/Maiz/maiz-blanco.png" alt="Maíz blanco">
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
                   gastronomía mexicana y guatemalteca.</p>
               </div>
               <div class="variety-image">
-                <img src="assets/images/Maiz/maiz-azul.png" alt="Maíz azul">
+                <img src="<?php echo constant('URL'); ?>assets/images/Maiz/maiz-azul.png" alt="Maíz azul">
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
           </div>
           <div class="contenedor_recetas">
             <section class="text__cover1">
-            <form action="controler/agregar_maiz_fav.php" method="POST" class="formulario_recetas">
+            <form action="<?php echo constant('URL'); ?>variedades/crear" method="POST" class="formulario_recetas">
               <h2>¿Cual es tu maiz favorito?</h2>
               <div class="campo">
                 <label for="autor">Ingrese su nombre: </label>

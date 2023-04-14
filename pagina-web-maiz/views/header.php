@@ -29,7 +29,7 @@
                         <li><a href="<?php echo constant('URL'); ?>cultural">Cultural</a></li>
                         <li><a href="<?php echo constant('URL'); ?>agricultura">Agricultura</a></li>
                         <li><a href="<?php echo constant('URL'); ?>alimentos">Alimentos</a></li>
-                        <li><a href="alimentos.php">Registrate working</a></li>
+                        <li><a href="<?php echo constant('URL'); ?>agricultores">Registrate working</a></li>
                     </ul>
                 </nav>                
             </div>

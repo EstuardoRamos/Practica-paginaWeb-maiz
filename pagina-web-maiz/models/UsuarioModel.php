@@ -10,8 +10,8 @@ class UsuarioModel {
     
 
     public function __construct() {
-        $conexion = new Conexion();
-        $this->pdo = $conexion;
+        //$conexion = new Conexion();
+        $this->pdo = $conexion
     }
 
     public function registrarUsuario($nombre, $correo, $contrasena) {
